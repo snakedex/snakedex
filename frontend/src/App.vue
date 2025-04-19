@@ -1,9 +1,31 @@
 <script lang="ts" setup>
-import HelloWorld from './components/HelloWorld.vue'</script>
+
+</script>
 
 <template>
-  <img id="logo" alt="Wails logo" src="./assets/images/logo-universal.png"/>
-  <HelloWorld/>
+  <v-sheet
+    height="100%"
+    width="100%"
+    class = "d-flex align-center align-content-center justify-center"
+  >
+    <v-sheet
+      height="20%"
+      width="30%"
+      class = "d-flex flex-column align-center justify-space-around align-content-center"
+      >
+      <v-btn
+      >
+        Select scenario from Github
+      </v-btn>
+      <v-btn>
+        Select scenario from file
+      </v-btn>
+      <v-btn
+      >
+        Create scenario
+      </v-btn>
+    </v-sheet>
+  </v-sheet>
 </template>
 
 <style>
